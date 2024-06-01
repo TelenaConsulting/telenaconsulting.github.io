@@ -9,7 +9,7 @@
 <div class="bg-hero bg-cover bg-center">
   <div class="bg-russian-violet-500 bg-opacity-45 px-5 md:py-16">
     <div
-      class="flex flex-col place-content-center place-items-center stroke-black stroke-1 text-center *:my-4 lg:my-24"
+      class="flex flex-col place-content-center place-items-center stroke-black stroke-1 py-16 text-center *:py-2 lg:my-24"
     >
       <h1 class="text-2xl lg:text-5xl">Expert CFO Consulting for small businesses</h1>
       <h2 class="text-lg lg:text-3xl">
