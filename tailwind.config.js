@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/hero.jpg')",
-        'contact-us': "url('/assets/contact-us.jpg')"
+        hero: "url('/assets/hero.webp')",
+        'contact-us': "url('/assets/contact-us.webp')"
       },
       colors: {
         'russian-violet': {
@@ -74,6 +74,5 @@ export default {
         'work-sans': ['Work Sans']
       }
     }
-  },
-  plugins: []
+  }
 };

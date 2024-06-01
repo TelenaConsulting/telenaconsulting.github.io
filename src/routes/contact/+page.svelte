@@ -4,6 +4,7 @@
 
 <svelte:head>
   <title>Contact us - Telena Consulting</title>
+  <link rel="preload" as="image" href="/assets/contact-us.webp" />
 </svelte:head>
 
 <div class="h-screen bg-contact-us bg-cover bg-center">

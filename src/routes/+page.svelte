@@ -4,6 +4,10 @@
 
 <svelte:head>
   <title>Telena Consulting</title>
+  <link rel="preload" as="image" href="/assets/hero.webp" />
+  <link rel="preload" as="image" href="/assets/digital-marketing.webp" />
+  <link rel="preload" as="image" href="/assets/money.webp" />
+  <link rel="preload" as="image" href="/assets/office.webp" />
 </svelte:head>
 
 <div class="bg-hero bg-cover bg-center">
@@ -25,17 +29,17 @@
     <Service
       name="Business Performance Evaluation"
       description="Assessing the financial performance of the business and recommending improvements for growth."
-      asset="/assets/digital-marketing.jpg"
+      asset="/assets/digital-marketing.webp"
     />
     <Service
       name="Financial Strategy Planning"
       description="Developing tailored financial strategies to help small businesses achieve their goals."
-      asset="/assets/money.jpg"
+      asset="/assets/money.webp"
     />
     <Service
       name="Financial Analysis"
       description="Conducting in-depth financial analysis to provide insights for informed decision-making."
-      asset="/assets/office.jpg"
+      asset="/assets/office.webp"
     />
   </div>
 </div>
