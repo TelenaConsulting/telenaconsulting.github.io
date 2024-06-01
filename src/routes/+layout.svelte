@@ -22,7 +22,7 @@
     <div
       class="flex h-full flex-col place-content-center place-items-center md:flex-row md:place-content-between"
     >
-      <a class="font-abril-fatface" href="/">
+      <a class="font-abril-fatface py-2" href="/">
         <p>Telena</p>
         <Separator.Root class="h-px bg-white" />
         <p>Consulting</p>
