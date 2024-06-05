@@ -18,7 +18,7 @@
 </svelte:head>
 
 <div class="font-work-sans">
-  <header class="w-full bg-russian-violet-500 px-5 md:fixed md:h-16">
+  <header class="w-full bg-russian-violet-500 px-5 py-2 md:fixed md:h-16">
     <nav
       class="flex h-full flex-col place-content-center place-items-center md:flex-row md:place-content-between"
     >
@@ -27,7 +27,7 @@
         <Separator.Root class="h-px bg-white" />
         <p>Consulting</p>
       </a>
-      <ul class="table py-2 text-center *:relative *:px-2 *:md:inline *:md:py-0">
+      <ul class="table text-center *:relative *:px-2 *:py-2 *:md:inline *:md:py-0">
         <li>
           <NavLink href="/" title="Home" />
         </li>
