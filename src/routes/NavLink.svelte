@@ -2,10 +2,15 @@
   import clsx from 'clsx';
 
   let className: string | undefined = undefined,
-    href: string = '#';
-  export { className as class, href };
+    href: string = '#',
+    title: string;
+  export { className as class, href, title };
 </script>
 
-<a class={clsx(className, 'px-3 py-2 duration-200 hover:text-african-violet-700')} {href}>
-  <slot />
+<a class={clsx(className, 'duration-200 hover:text-african-violet-700')} {href} {title}>
+  {#if $$slots.default}
+    <slot />
+  {:else}
+    {title}
+  {/if}
 </a>

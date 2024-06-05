@@ -10,7 +10,7 @@
     content="Telena Consulting - Expert CFO Consulting for small businesses"
   />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
   <link
     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet"
@@ -18,31 +18,31 @@
 </svelte:head>
 
 <div class="font-work-sans">
-  <nav class="w-full bg-russian-violet-500 p-5 md:fixed md:h-16">
-    <div
+  <header class="w-full bg-russian-violet-500 px-5 md:fixed md:h-16">
+    <nav
       class="flex h-full flex-col place-content-center place-items-center md:flex-row md:place-content-between"
     >
-      <a class="font-abril-fatface py-2" href="/">
+      <a class="py-2 font-abril-fatface" href="/" title="Home">
         <p>Telena</p>
         <Separator.Root class="h-px bg-white" />
         <p>Consulting</p>
       </a>
-      <ul class="table text-center *:relative *:py-2 *:md:inline *:md:py-0">
+      <ul class="table py-2 text-center *:relative *:px-2 *:md:inline *:md:py-0">
         <li>
-          <NavLink href="/">Home</NavLink>
+          <NavLink href="/" title="Home" />
         </li>
         <li>
-          <NavLink href="/#services">Services</NavLink>
+          <NavLink href="/#services" title="Services" />
         </li>
         <li>
-          <NavLink href="/about">About Us</NavLink>
+          <NavLink href="/about" title="About Us" />
         </li>
         <li>
-          <NavLink href="/contact">Contact Us</NavLink>
+          <NavLink href="/contact" title="Contact Us" />
         </li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </header>
   <main class="md:pt-16">
     <slot />
   </main>
