@@ -1,7 +1,6 @@
-<script>
+<script lang="ts">
   import '../app.css';
   import NavLink from './NavLink.svelte';
-  import { Separator } from 'bits-ui';
 </script>
 
 <svelte:head>
@@ -24,7 +23,7 @@
     >
       <a class="py-2 font-abril-fatface" href="/" title="Home">
         <p>Telena</p>
-        <Separator.Root class="h-px bg-white" />
+        <div class="h-px bg-white" />
         <p>Consulting</p>
       </a>
       <ul class="table text-center *:relative *:px-2 *:py-2 *:md:inline *:md:py-0">
