@@ -13,8 +13,8 @@
   >
     <h1 class="mb-10 text-2xl lg:text-4xl">Contact us</h1>
     <div class="flex flex-wrap place-content-center place-items-center text-center md:text-left">
-      <Contact name="Leanne Graham" email="Sincere@april.biz" phone="1-770-736-8031" />
-      <Contact name="Ervin Howell" email="Shanna@melissa.tv" phone="010-692-6593" />
+      <Contact name="Ellen Grantham" email="elgrantham1@gmail.com" phone="919-426-3470" />
+      <Contact name="Elena Khvostova" email="elenakhvostova@gmail.com" phone="919-607-5761" />
     </div>
   </div>
 </div>

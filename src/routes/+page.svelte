@@ -15,10 +15,9 @@
     <div
       class="flex flex-col place-content-center place-items-center stroke-black stroke-1 py-16 text-center *:py-2 lg:my-24"
     >
-      <h1 class="text-2xl lg:text-5xl">Expert CFO Consulting for small businesses</h1>
+      <h1 class="text-2xl lg:text-5xl">Expert Finance and HR Consulting for Small businesses</h1>
       <h2 class="text-lg lg:text-3xl">
-        Maximize your financial potential with Telena's CFO Consulting tailored for small
-        businesses.
+        Maximize your potential with Telena’s consulting tailored for small businesses.
       </h2>
     </div>
   </div>
@@ -27,27 +26,25 @@
   <h2 class="text-center text-lg lg:text-3xl">CFO Consulting Services</h2>
   <div class="flex flex-col *:px-4 md:flex-row">
     <Service
-      name="Business Performance Evaluation"
-      description="Assessing the financial performance of the business and recommending improvements for growth."
+      name="Financial Consulting"
+      description="Fractional CFO, Bookkeeping, and Tax services. We can help your small business scale by offering part-time resources."
       asset="/assets/digital-marketing.webp"
     />
     <Service
-      name="Financial Strategy Planning"
-      description="Developing tailored financial strategies to help small businesses achieve their goals."
+      name="HR Consulting"
+      description="HR leadership for your small business - organization development, benefit selections, compliance."
       asset="/assets/money.webp"
     />
     <Service
-      name="Financial Analysis"
-      description="Conducting in-depth financial analysis to provide insights for informed decision-making."
+      name="Executive Coaching"
+      description="We offer C-suite and leadership personalized one-on-one coaching to help you grow your business faster by recognizing your blind spots."
       asset="/assets/office.webp"
     />
   </div>
 </div>
 <div class="bg-african-violet-300 px-5 py-10 md:py-16">
   <div class="flex flex-col place-content-center place-items-center text-center *:py-2">
-    <h2 class="text-2xl lg:text-4xl">
-      Empowering small businesses with strategic financial guidance.
-    </h2>
-    <h3 class="text-lg">Transform your finances today!</h3>
+    <h2 class="text-2xl lg:text-4xl">Empowering small businesses with strategic guidance.</h2>
+    <h3 class="text-lg">Transform your business today!</h3>
   </div>
 </div>
