@@ -6,7 +6,7 @@
   class="flex h-auto flex-col place-content-center place-items-center bg-russian-violet-400 p-12"
 >
   <h1 class="mb-10 text-2xl lg:text-4xl">About us</h1>
-  <div class="m-4 flex bg-ultra-violet-300">
+  <div class="m-4 flex flex-col bg-ultra-violet-300 md:flex-row">
     <div class="*:p-4">
       <img src="/assets/ellen.webp" alt="Ellen Headshot" />
       <div>
@@ -14,7 +14,7 @@
         <h3 class="text-lg">Owner, Principal</h3>
       </div>
     </div>
-    <div class="*:py-2">
+    <div class="*:px-4 *:py-2">
       <p>
         Ellen Grantham is a highly accomplished Certified Public Accountant (CPA) with a robust
         background in finance, human resources, and legal compliance. Holding a Bachelor of Science
@@ -49,7 +49,7 @@
       </p>
     </div>
   </div>
-  <div class="m-4 flex bg-ultra-violet-300">
+  <div class="m-4 flex flex-col bg-ultra-violet-300 md:flex-row">
     <div class="*:p-4">
       <img src="https://picsum.photos/850/1300" alt="Elena Headshot" />
       <div>
@@ -57,7 +57,7 @@
         <h3 class="text-lg">Owner, Principal</h3>
       </div>
     </div>
-    <div class="*:py-2">
+    <div class="*:px-4 *:py-2">
       <p>
         Prior to Telena Consulting, Elena Khvostova was a seasoned Senior Director of Analytics and
         Financial Reporting at Cengage Learning, recognized for her profound expertise in financial
